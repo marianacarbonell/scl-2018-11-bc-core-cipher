@@ -2,13 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Pijamada Secreta</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body>   <br><br>
     <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+      <h2>Pijama Secreta</h2>
+   </div>
+<center>
+<div id="Instrucciones">
+<p>
+  Instrucciones: <br> <br>
+1. Escribe el texto que quieras transformar o descubrir <br> <br>
+2. Escoge el número positivo que quieres que se desplacen las letras <br> <br>
+3. Escoge la opción de cifrar o descifrar (dependiendo de lo que quieras hacer) <br> <br>
+4. Copia el resultado y comprueba que funciona <br><br>
+</p>
+</div>
+<div> 
+
+<textarea name="" id="textoEncriptar" cols="30" rows="4" placeholder="Escribe tu texto"></textarea>
+</div> <br>
+</center>
+
+<h3>Escoge el número de desplazamiento</h3>
+
+<center>
+<div> 
+<input type="text" id="botonDesplazamiento"> <br> <br>
+</div>
+</center>
+
+<center>
+<button type="submit" class="boton"  id="codificar"> Codificar </button>
+<button  type="submit" class="boton"  id="decodificar" >Decodificar</button> <br><br>
+</center>
+<center>
+<div id="resultado">Tu resultado</div>
+</center> <br> <br> <br>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
