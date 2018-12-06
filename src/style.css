@@ -1,1 +1,76 @@
-/* Acá va tu código */
+body{
+    background:url(../src/fondo/ws_Lots_of_hearts_1366x768.jpg);
+font-size : 20px;
+  font-family : Arial;
+  background-attachment: fixed;
+}
+
+h2{ 
+    text-align: center;
+   color: #4E0268;
+}
+h3{
+   text-align: center;
+color:#4E0268;
+}
+
+
+   p{
+    font-family : Arial;  
+    color:#400156;
+   }
+
+#textoEncriptar{
+    background-color: white;
+    border : 1px groove;
+    border-radius:8px; 
+    font-size: 12px;
+    display: inline-block;
+    padding : 1em;
+    width: 35%;
+    height: 170%;
+    resize: none;
+}
+
+.boton{
+    font-family : Arial;
+    font-size: 18px;
+    background-color: #6C5AA0;
+    padding: 12px 22px;
+    margin: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 10px #493E6A;
+}
+
+
+#botonDesplazamiento{
+  width: 15%;
+    height:100%;
+    border-radius: 8px;
+    padding : 1em;
+   
+}
+
+
+   #descifrado {
+    background-color: white;
+    border : 1px groove;
+    border-radius:8px; 
+    font-size: 12px;
+    display: inline-block;
+    padding : 1em;
+    width: 35%;
+    height: 170%;
+    resize: none;
+  }
+  #resultado{
+      border-radius: 5px;
+      border:1.5px solid rgb(255, 255, 255);
+      width: 25%;
+      color:#400156;
+      padding: 1%;
+      background: white;
+      font-family : Arial;
+  }
