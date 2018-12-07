@@ -15,7 +15,8 @@ describe('cipher.encode', () => {
   });
    
     describe('cipher.decode', () => { 
-         it('debería ser una función', () => {
+
+    it('debería ser una función', () => {
     assert.equal(typeof cipher.decode, 'function');
 });
 
