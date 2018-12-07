@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Pijamada Secreta</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>   <br>
+</head>
+
+<body> <br>
     <div id="root">
-      <h2>Hola, bienvenida</h2> <br>
-   </div>
-   <center>
-     <h4>En esta página web podrás escribir tu plan para planear nuestra pijamada secreta</h4> 
-     <h4>No te preocupes, tu información está segura aquí </h4>
-   </center>
-<center>
-<div id="Instrucciones">
-<p>
-  Instrucciones: <br> <br>
-1. Escribe el texto que quieras transformar o descubrir <br> <br>
-2. Escoge el número positivo que quieres que se desplacen las letras <br> <br>
-3. Escoge la opción de cifrar o descifrar (dependiendo de lo que quieras hacer) <br> <br>
-4. Copia el resultado y comprueba que funciona <br><br>
-</p>
-</div>
-<div> 
+        <h2>Hola, bienvenida</h2> <br>
+    </div>
+    <center>
+        <h4>En esta página web podrás escribir tu plan para planear nuestra pijamada secreta</h4>
+        <h4>No te preocupes, tu información está segura aquí </h4>
+    </center>
+    <center>
+        <div id="Instrucciones">
+            <p>
+                Instrucciones: <br> <br>
+                1. Escribe el texto que quieras transformar o descubrir <br> <br>
+                2. Escoge el número positivo que quieres que se desplacen las letras <br> <br>
+                3. Escoge la opción de cifrar o descifrar (dependiendo de lo que quieras hacer) <br> <br>
+                4. Copia el resultado y comprueba que funciona <br><br>
+            </p>
+        </div>
+        <div>
 
-<textarea name="" id="textoEncriptar" cols="30" rows="4" placeholder="Escribe tu texto"></textarea>
-</div> <br>
-</center>
+            <textarea name="" id="textoEncriptar" cols="30" rows="4" placeholder="Escribe tu texto"></textarea>
+        </div> <br>
+    </center>
 
-<h3>Escoge el número de desplazamiento</h3>
+    <h3>Escoge el número de desplazamiento</h3>
 
-<center>
-<div> 
-<input type="text" id="botonDesplazamiento"> <br> <br>
-</div>
-</center>
+    <center>
+        <div>
+            <input type="text" id="botonDesplazamiento"> <br> <br>
+        </div>
+    </center>
 
-<center>
-<button type="submit" class="boton"  id="codificar"> Codificar </button>
-<button  type="submit" class="boton"  id="decodificar" >Decodificar</button> <br><br>
-</center>
-<center>
-<div id="resultado">Tu resultado</div>
-</center> <br> <br> <br>
+    <center>
+        <button type="submit" class="boton" id="codificar"> Codificar </button>
+        <button type="submit" class="boton" id="decodificar">Decodificar</button> <br><br>
+    </center>
+    <center>
+        <div id="resultado">Tu resultado</div>
+    </center> <br> <br> <br>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
