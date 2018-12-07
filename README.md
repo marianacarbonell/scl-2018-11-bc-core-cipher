@@ -4,6 +4,7 @@ La problemática encontrada fue la necesidad de las niñas en tener un medio de 
 
 
 Como el usuario varía entre una edad juvenil, usé colores alegres, amigables y frescos para el fondo.
+
 Al igual que los botones, son de un tamaño considerable para hacerlo más llamativo y moderno.
 
 La tipografía usada es Arial, ya que, por ser san serif o palo seco, permite que la lectura sea continua y agradable sin provocar cansancio o rechazo por el usuario.
@@ -18,4 +19,6 @@ Con la creación de esta página las niñas podrán expresarse libremente sin te
 De haber tenido más tiempo, habría jugado un poco más con la apariencia de la página, y hubiese creado un área para guardar y enviar los mensajes, para que el usuario pudiera tener un seguimiento de sus conversaciones.
 
 
+<a href="https://ibb.co/zm8ywVM"><img src="https://i.ibb.co/QJ82Gvg/Captura-de-pantalla-de-2018-12-06-22-23-00.png" alt="Captura-de-pantalla-de-2018-12-06-22-23-00" border="0"></a>
 
+<a href="https://ibb.co/8XMxvmx"><img src="https://i.ibb.co/PtxWXrW/Captura-de-pantalla-de-2018-12-06-22-32-06.png" alt="Captura-de-pantalla-de-2018-12-06-22-32-06" border="0"></a>
