@@ -1,30 +1,29 @@
 window.cipher = {
   encode: (textoEncriptar, botonDesplazamiento) => {
-    let texto="";
-    for (let i=0; i< textoEncriptar.length;i++){
-      let textoDos=textoEncriptar.charCodeAt(i);
-        if (textoDos >=65 && textoDos<=90){
-        let code=(textoDos-65+botonDesplazamiento)%26+65;
-        texto+=String.fromCharCode(code);
-      }
-      else {
-        texto+= String.fromCharCode(textoDos);
-      }
+      let text = "";
+      for (let i = 0; i < textoEncriptar.length; i++) {
+          let secText = textoEncriptar.charCodeAt(i);
+          if (secText >= 65 && secText <= 90) {
+              let code = (secText - 65 + botonDesplazamiento) % 26 + 65;
+              text += String.fromCharCode(code);
+          } else {
+              text += String.fromCharCode(secText);
           }
-    return texto;
-   },
-   
+      }
+      return text;
+  },
+
   decode: (textoEncriptar, botonDesplazamiento) => {
-    let texto="";
-    for (let i=0; i< textoEncriptar.length;i++){
-      let textoDos=textoEncriptar.charCodeAt(i);
-        if (textoDos >=65 && textoDos<=90){
-        let code=(textoDos-65-botonDesplazamiento)%26+65;
-        texto+=String.fromCharCode(code);
-      }
-      else {
-        texto+= String.fromCharCode(textoDos);
-      }
+      let text = "";
+      for (let i = 0; i < textoEncriptar.length; i++) {
+          let secText = textoEncriptar.charCodeAt(i);
+          if (secText >= 65 && secText <= 90) {
+              let code = (secText - 65 - botonDesplazamiento) % 26 + 65;
+              text += String.fromCharCode(code);
+          } else {
+              text += String.fromCharCode(secText);
           }
-    return texto;
-  }};
+      }
+      return text;
+  }
+};
