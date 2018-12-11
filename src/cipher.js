@@ -1,10 +1,10 @@
 window.cipher = {
-  encode: (textoEncriptar, botonDesplazamiento) => {
+  encode: (textoencriptar, botondesplazamiento) => {
       let text = "";
-      for (let i = 0; i < textoEncriptar.length; i++) {
-          let secText = textoEncriptar.charCodeAt(i);
+      for (let i = 0; i < textoencriptar.length; i++) {
+          let secText = textoencriptar.charCodeAt(i);
           if (secText >= 65 && secText <= 90) {
-              let code = (secText - 65 + botonDesplazamiento) % 26 + 65;
+              let code = (secText - 65 + botondesplazamiento) % 26 + 65;
               text += String.fromCharCode(code);
           } else {
               text += String.fromCharCode(secText);
@@ -13,12 +13,12 @@ window.cipher = {
       return text;
   },
 
-  decode: (textoEncriptar, botonDesplazamiento) => {
+  decode: (textoencriptar, botondesplazamiento) => {
       let text = "";
-      for (let i = 0; i < textoEncriptar.length; i++) {
-          let secText = textoEncriptar.charCodeAt(i);
+      for (let i = 0; i < textoencriptar.length; i++) {
+          let secText = textoencriptar.charCodeAt(i);
           if (secText >= 65 && secText <= 90) {
-              let code = (secText - 65 - botonDesplazamiento) % 26 + 65;
+              let code = (secText - 65 - botondesplazamiento) % 26 + 65;
               text += String.fromCharCode(code);
           } else {
               text += String.fromCharCode(secText);
