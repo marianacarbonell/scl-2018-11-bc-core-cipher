@@ -1,38 +1,78 @@
 body{
-    background:url(https://wallpaperstock.net/wallpapers/thumbs1/17263.jpg);
- font-size : 20px;
-  font-family : Arial;
+    background:url(https://i.pinimg.com/originals/48/f5/8d/48f58dc7901bcbd33d701cec72ba9d8d.jpg);
   background-attachment: fixed;
+}
+
+h1{ 
+    text-align: center;
+   color: #4E0268;
+   font-family: 'Ribeye Marrow', cursive;
+   font-size: 50px;
 }
 
 h2{ 
     text-align: center;
    color: #4E0268;
+   font-family: 'Indie Flower', cursive;
+   font-size: 25px;
 }
-h3{
-   text-align: center;
-color:#4E0268;
-}
-h4{
+h3{  
     text-align: center;
- color:#4E0268;
- }
-
-   p{
-    font-family : Arial;  
     color:#400156;
+    font-family: 'Indie Flower', cursive;
+    font-size: 70 px;
    }
 
-#textoEncriptar{
+h4{
+ text-align: center;
+ color:#4E0268;
+ font-family: 'Indie Flower', cursive;
+ font-size: 30px;
+ }
+
+#botonsiguiente{
+    display:flex;
+    justify-content: center;
+}
+
+#centrar{
+    display:flex;
+    justify-content: center;  
+}
+
+#centrar2{
+    display:flex;
+    justify-content: center;
+}
+
+#siguiente{
+    font-family :'Indie Flower', cursive;
+    font-size: 22px;
+    background-color: #6C5AA0;
+    padding: 12px 22px;
+    margin: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 10px #493E6A;
+    
+}
+   #mostrar{
+       display: none;
+   }
+
+
+#textoencriptar{
     background-color: white;
     border : 1px groove;
     border-radius:8px; 
-    font-size: 12px;
+    font-size: 20px;
     display: inline-block;
     padding : 1em;
     width: 35%;
     height: 170%;
     resize: none;
+    font-family :'Indie Flower', cursive;
 }
 
 .boton{
@@ -48,15 +88,13 @@ h4{
 }
 
 
-#botonDesplazamiento{
+#botondesplazamiento{
   width: 15%;
     height:100%;
     border-radius: 8px;
     padding : 1em;
    
 }
-
-
    #descifrado {
     background-color: white;
     border : 1px groove;
@@ -75,5 +113,6 @@ h4{
       color:#400156;
       padding: 1%;
       background: white;
-      font-family : Arial;
+      font-family :'Indie Flower', cursive;
+      font-size: 30 px;
   }
